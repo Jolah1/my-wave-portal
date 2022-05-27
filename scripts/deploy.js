@@ -1,4 +1,3 @@
-const { hexStripZeros } = require("ethers/lib/utils")
 
 const main = async () => {
     const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
